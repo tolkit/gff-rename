@@ -3,7 +3,7 @@ import os
 import argparse
 import pandas as pd
 
-parser = argparse.ArgumentParser(description='This converts sequence_IDs from a gff3 to sequence_IDs from a given genome fasta file')
+parser = argparse.ArgumentParser(description='GFF3-rename Charlotte Wright <cw22@sanger.ac.uk> This converts sequence_IDs from a gff3 to sequence_IDs from a given genome fasta file')
 parser.add_argument("--genome", help="This is the genome fasta")
 parser.add_argument("--gff3", help="This is the gff3 file")
 parser.add_argument("--prefix", help="This is the prefix for the output file")
